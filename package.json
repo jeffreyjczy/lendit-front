@@ -2,7 +2,6 @@
   "name": "lendit",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://lent-it-api.herokuapp.com/",
   "homepage": "lendit",
   "dependencies": {
     "@mui/styles": "^5.4.1",
