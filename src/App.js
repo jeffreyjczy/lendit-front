@@ -43,7 +43,6 @@ function App() {
               <div style={{ color: '#48846F', fontWeight: '500' }}>
                 LENDIT
               </div>
-
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href={"/Profile/" + parentId} >Profile</Nav.Link>
@@ -68,7 +67,6 @@ function App() {
             setParentToken(parentToken);
 
           }} />} />
-
 
           <Route exact path="/lendit2" element={<Homepage appToken={parentToken} appId={parentId} />} />
           <Route exact path="/itemDetail/:id" element={<ItemDetail appToken={parentToken} appId={parentId} />} />
